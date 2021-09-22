@@ -1,5 +1,6 @@
 class PlotsController < ApplicationController
 
-  def index 
+  def index
+    @plots = Plot.all
   end
 end
